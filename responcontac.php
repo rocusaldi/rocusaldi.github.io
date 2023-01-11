@@ -1,3 +1,4 @@
+<?php include("config.php"); ?>
 <html lang="en">
 
 <head>
@@ -89,18 +90,19 @@
               </h2>
             </div>
             <form action="">
-              <div>
-                <input type="text" placeholder="Nama Lengkap" />
-              </div>
-              <div>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input type="text" placeholder="Nomor Telepon" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Pesan" />
-              </div>
+              <table border="1">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Alamat</th>
+            <th>Jenis Kelamin</th>
+            <th>Agama</th>
+            <th>Sekolah Asal</th>
+            <th>Tindakan</th>
+        </tr>
+    </thead>
+    <tbody>
               <div class="d-flex ">
                 <button>
                   KIRIM
